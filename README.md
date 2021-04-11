@@ -9,6 +9,8 @@ A Javascript Quiz; Test your knowledge.
 
  Created a div holding the .Quiz-box and more divs inside which include the .Question and .choice-list. 
 
+<img width="984" alt="Screen Shot 2021-04-10 at 8 48 31 PM" src="https://user-images.githubusercontent.com/77827825/114292350-b9c2c300-9a42-11eb-954b-7b4a33ed1686.png">
+
 
 #Css
 
@@ -21,6 +23,9 @@ Styled the start button by adding color, background color and font size, then ad
 Positioned the Quiz-box in the same positon as the start button
 
 Styled the section holding the choice-list choice and then added a hover. 
+
+<img width="980" alt="Screen Shot 2021-04-10 at 8 49 50 PM" src="https://user-images.githubusercontent.com/77827825/114292360-cd6e2980-9a42-11eb-8019-10cb33702901.png">
+
 
 #Javascript
 
