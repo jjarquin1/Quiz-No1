@@ -31,7 +31,7 @@ header .timer {
     background-color:#1cb6f3; 
 }
 
-.Quiz-box{
+.Quiz-box1{
     display: none;
     position: absolute;
     top:50%;
@@ -39,17 +39,51 @@ header .timer {
     transform: translate(-50%,-50%);
 }
 
-.Quiz-box section .Question{
+.Quiz-box1 section .Question{
     font-size: 30px; 
     font-weight: 600;
 }
 
-.Quiz-box section .choices-list{
+.Quiz-box1 section .choices-list{
+    padding: 20px 0;
+    display: block;
+}
+.Quiz-box2{
+    display: none;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.Quiz-box2 section .Question{
+    font-size: 30px; 
+    font-weight: 600;
+}
+
+.Quiz-box2 section .choices-list{
+    padding: 20px 0;
+    display: block;
+}
+.Quiz-box3{
+    display: none;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.Quiz-box3 section .Question{
+    font-size: 30px; 
+    font-weight: 600;
+}
+
+.Quiz-box3 section .choices-list{
     padding: 20px 0;
     display: block;
 }
 
-section .choices-list .choice{
+section .choices-list button{
     color: cornsilk;
     background: darkorchid;
     border:1px solid rgb(99, 8, 99);
@@ -64,7 +98,7 @@ section .choices-list .choice{
     transition: all 0.3s ease;
 }
 
-section .choices-list .choice:hover{
+section .choices-list button:hover{
     cursor: pointer;
     transition: all 0.3s ease;
     color: white; 
